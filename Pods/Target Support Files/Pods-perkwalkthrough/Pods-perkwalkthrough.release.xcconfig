@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AppsaholicSDK"
+LD_RUNPATH_SEARCH_PATHS = @loader_path/../Frameworks
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../AppsaholicUniversalSDK/AppsaholicFramework/Lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AppsaholicSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AppsaholicSDK-3.1" -l"System" -l"c++" -l"iconv" -l"stdc++" -l"xml2" -l"z" -framework "AVFoundation" -framework "Accounts" -framework "AdSupport" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "EventKit" -framework "EventKitUI" -framework "Foundation" -framework "JavaScriptCore" -framework "MapKit" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "QuartzCore" -framework "StoreKit" -framework "SystemConfiguration" -framework "Twitter" -framework "UIKit" -framework "WebKit"
+PODS_ROOT = ${SRCROOT}/Pods

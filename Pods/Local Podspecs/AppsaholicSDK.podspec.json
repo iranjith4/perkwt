@@ -1,0 +1,70 @@
+{
+  "name": "AppsaholicSDK",
+  "version": "3.1",
+  "summary": "Superchange your app with the #1 Mobile Loyalty Program",
+  "description": "A longer description of AppsaholicSDK in Markdown format.\n\n* Think: Why did you write this? What is the focus? What does it do?\n* CocoaPods will be using this to generate tags, and improve search results.\n* Try to keep it short, snappy and to the point.\n* Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "http://EXAMPLE/AppsaholicSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "Abhijeet Upadhyay": "abhijeet@perk.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": [
+    "AppsaholicFramework/Headers/AppsaholicHeaders/*.h",
+    "*.m",
+    "AppsaholicFramework/Headers/AerServHeaders/*.h",
+    "AppsaholicFramework/Headers/FANHeaders/*.h"
+  ],
+  "preserve_paths": "AppsaholicUniversalSDK/AppsaholicFramework/Lib/libAppsaholicSDK-3.1.a",
+  "xcconfig": {
+    "LD_RUNPATH_SEARCH_PATHS": "@loader_path/../Frameworks"
+  },
+  "exclude_files": "AppsaholicUniversalSDK/Exclude",
+  "ios": {
+    "vendored_libraries": "AppsaholicFramework/Lib/libAppsaholicSDK-3.1.a"
+  },
+  "public_header_files": [
+    "AppsaholicFramework/Headers/AppsaholicHeaders/*.h",
+    "AppsaholicFramework/Headers/AerServHeaders/*.h",
+    "AppsaholicFramework/Headers/FANHeaders/*.h"
+  ],
+  "frameworks": [
+    "AssetsLibrary",
+    "JavaScriptCore",
+    "StoreKit",
+    "AdSupport",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreGraphics",
+    "QuartzCore",
+    "EventKitUI",
+    "EventKit",
+    "UIKit",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "Foundation",
+    "CoreGraphics",
+    "AVFoundation",
+    "CoreMedia",
+    "CoreLocation",
+    "WebKit",
+    "Accounts",
+    "MapKit",
+    "AudioToolbox",
+    "MediaPlayer",
+    "Twitter",
+    "QuartzCore",
+    "StoreKit",
+    "MessageUI"
+  ],
+  "libraries": [
+    "iconv",
+    "xml2",
+    "z",
+    "System",
+    "c++",
+    "stdc++"
+  ]
+}

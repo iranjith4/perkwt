@@ -1,0 +1,1 @@
+../../../../../AppsaholicUniversalSDK/AppsaholicFramework/Headers/FANHeaders/FBNativeAdTableViewCellProvider.h
